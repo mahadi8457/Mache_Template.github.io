@@ -2,7 +2,6 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-
 }
 hr{
   max-width:200px;
@@ -14,7 +13,7 @@ hr{
 }
 a:hover{
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 a{
     text-decoration: none;
@@ -22,6 +21,9 @@ a{
     color: #ed145b;
     font-weight: bold;
     vertical-align: middle;
+    line-height: 29px;
+    -webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s;
 }
 a img{
     padding-left: 5px;
@@ -38,7 +40,13 @@ a img{
     width: 200px;
     height: 50px;
     margin: 0 auto;
-
+    -webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s;
+}
+.butn:hover{
+    background: #fff;
+    color: #ed145b;
+    box-shadow: 3px 3px 8px #000;
 }
 #main{
   color: white;
@@ -239,6 +247,7 @@ a img{
     color:#fff !important;
     z-index:2;
 
+
 }
 .news .thumbnail span{
     padding: 20%;
@@ -249,6 +258,7 @@ a img{
     display: block;
     -webkit-animation: fadeinout 4s linear forwards;
     animation: fadeinout 4s linear forwards;
+
 }
 .news p{
     max-width: 700px;
@@ -261,6 +271,8 @@ a img{
     border: none;
     border-radius: 0;
     margin-bottom: 50px;
+    -webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s
 }
 
 .news .thumbnail h4,
