@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+hr{
+  max-width:200px;
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #ee3370;
+  padding:0;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ed145b;
+    font-weight: bold;
+    vertical-align: middle;
+}
+a img{
+    padding-left: 5px;
+}
+
+.butn{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background: #ed145b;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+#main{
+  color: white;
+  padding: 25px 40px;
+  background:url(../../assets/img/banner.jpg) no-repeat;
+  background-size: cover;
+}
+.jumbotron{
+  background: rgba(0,0,0,0.0);
+}
+.jumbotron hr{
+  border-top:1px solid #ee3370;
+
+}
+.jumbotron p {
+    font-weight: 300;
+}
+.navigation{
+  border: none;
+  color: white;
+  background:rgba(0,0,0, 0.0);
+}
+.icon-bar{
+    color: #fff;
+    background-color: white;
+}
+.nav > li > a {
+  text-shadow: none;
+  color: #fff;
+  padding: 15px 7px;
+}
+.nav .active > a,
+.nav > li > a:hover,
+.nav .active > a:hover{
+  color: #ee3370;
+  background:rgba(0,0,0, 0.0);
+}
+.bottom{
+    position: relative;
+    float: left;
+}
+#about{
+  padding: 50px;
+  background: #f4f4f4;
+}
+.about p{
+  font-size: 10px;
+  padding: 10px;
+  padding-left: 0;
+}
+.about h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #5a5a5a;
+    font-weight: lighter;
+}
+.about hr{
+  max-width:200px;
+  display:block;
+  height:1px;
+  border:0;
+  border-top:1px solid #ee3370;
+  padding:0;
+  margin-left: 0;
+}
+.about img{
+  position: absolute;
+}
+#services{
+    padding: 50px;
+}
+.secvices h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #5a5a5a;
+    font-weight: lighter;
+}
+.secvices p{
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.secvices .thumbnail{
+    border: none;
+    box-shadow: none;
+}
+#quotes{
+    padding: 50px;
+    background: url(../../assets/img/bg-carosowl.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    /*color: #f4511e;*/
+}
+.quotes img{
+    padding: 50px;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.quotes p{
+    max-width: 399px;
+    margin: 0 auto;
+}
+.price{
+    background: #f4f4f4;
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+.price .p-head p{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.price .panel{
+    border: none;
+    border-radius: 0;
+}
+.price .panel-heading{
+    color: white;
+    background: #5a5a5a;
+    height: 153px;
+    border-radius: 0;
+}
+.panel:hover .panel-heading{
+    background: #ed145b;
+}
+.price .panel-footer{
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    color: #5a5a5a;
+    text-transform: uppercase;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+#AddInfo{
+    padding-top: 134px;
+    padding-bottom: 134px;
+
+}
+.AddInfo p{
+    padding: 0;
+}
+.media:first-child {
+    margin-top: 15px;
+}
+#Join{
+    padding: 60px 0 60px 0;
+    color: white;
+    background: #ed145b;
+    vertical-align: middle;
+}
+.Join .butn{
+    color: #ed145b;
+    background: white;
+    margin-top: 12px;
+}
+.news .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.news figure {
+    position:relative;
+}
+.news{
+    padding-top: 125px;
+}
+.effect {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(237, 20, 91, 0.75);
+    width:100%;
+    height:100%;
+    display: none;
+    text-align: center;
+    color:#fff !important;
+    z-index:2;
+
+}
+.news .thumbnail span{
+    padding: 20%;
+    font-size: 50px;
+    text-align: center;
+}
+.news .thumbnail:hover .effect{
+    display: block;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
+}
+.news p{
+    max-width: 700px;
+    padding-bottom: 94px;
+    margin: 0 auto;
+}
+.news .thumbnail {
+    padding: 0;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 50px;
+}
+
+.news .thumbnail h4,
+.news .thumbnail p
+{
+    text-align: left;
+    color: #a7a7a7;
+    padding: 0 25px 0 25px;
+}
+
+.news .thumbnail p{
+    padding-bottom: 21px;
+}
+#AddInfo2{
+
+    background: url("../../assets/img/bg-carosowl.jpg");
+}
+.AddInfo2{
+    padding-top: 74px;
+    padding-bottom: 74px;
+}
+.AddInfo2 p{
+    font-size: 11px;
+    max-width: 800px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.AddInfo2 {
+    color: #fff;
+}
+
+.dLoadNow{
+    padding-top: 74px;
+    padding-bottom: 74px;
+    color: #a7a7a7;
+}
+.dLoadNow hr{
+   margin-left: 0;
+}
+footer{
+    vertical-align: middle;
+    padding: 25px;
+    background: #2b2b2b;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #quotes{
+        padding: 0;
+    }
+    .quotes p {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 220px;
+        margin: auto;
+    }
+    .AddInfo2 p {
+        font-size: 11px;
+        padding: 15px;
+    }
+    .jumbotron p {
+        margin-bottom: 15px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .about img {
+        position: relative;
+    }
+    .butn{
+        width: 166px;
+    }
+}
+@media only screen
+and (min-device-width : 501px)
+and (max-device-width : 988px) {
+    .about img {
+        position: relative;
+    }
+}
